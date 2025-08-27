@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  Chumash Play
 //
-//  Created by Dias Atudinov on 27.08.2025.
 //
 
 import SwiftUI
