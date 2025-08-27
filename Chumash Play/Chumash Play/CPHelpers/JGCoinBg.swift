@@ -1,3 +1,10 @@
+//
+//  JGCoinBg.swift
+//  Chumash Play
+//
+//
+
+
 import SwiftUI
 
 struct JGCoinBg: View {
@@ -5,7 +12,7 @@ struct JGCoinBg: View {
     var height: CGFloat = JGDeviceManager.shared.deviceType == .pad ? 100:50
     var body: some View {
         ZStack {
-            Image(.coinsBgJG)
+            Image(.coinsBgCP)
                 .resizable()
                 .scaledToFit()
             
@@ -13,6 +20,7 @@ struct JGCoinBg: View {
                 .font(.system(size: JGDeviceManager.shared.deviceType == .pad ? 45:25, weight: .black))
                 .foregroundStyle(.white)
                 .textCase(.uppercase)
+                .offset(x: -15)
             
             
             

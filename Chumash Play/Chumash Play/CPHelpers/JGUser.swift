@@ -1,3 +1,10 @@
+//
+//  JGUser.swift
+//  Chumash Play
+//
+//
+
+
 import SwiftUI
 
 class JGUser: ObservableObject {

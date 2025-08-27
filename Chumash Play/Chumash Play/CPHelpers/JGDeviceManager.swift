@@ -1,3 +1,10 @@
+//
+//  JGDeviceManager.swift
+//  Chumash Play
+//
+//
+
+
 
 import UIKit
 
