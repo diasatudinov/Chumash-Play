@@ -100,13 +100,16 @@ struct CPMenuView: View {
 //                GameRootView()
             }
             .fullScreenCover(isPresented: $showAchievement) {
-//                JGAchievementsView()
+                CPAchievementsView()
             }
             .fullScreenCover(isPresented: $showShop) {
 //                JGShopView(viewModel: shopVM)
             }
             .fullScreenCover(isPresented: $showSettings) {
-//                JGSettingsView()
+                CPSettingsView()
+            }
+            .fullScreenCover(isPresented: $showDailyReward) {
+                CPDailyRewardsView()
             }
     }
 }
